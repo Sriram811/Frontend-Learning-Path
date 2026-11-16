@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Session Storage</button>
+    <script>
+        // Session Storage (Permanent Storage)
+            // setItem
+            // getItem
+            // removeItem
+        let bt=document.getElementById("btn")
+        bt.addEventListener("click",()=>{
+            // sessionStorage.setItem("Key","Value")
+            sessionStorage.setItem("Ice","Choco")
+            sessionStorage.getItem("Ice")
+            sessionStorage.setItem("food","sambar")
+            sessionStorage.getItem("food")
+            sessionStorage.removeItem("Ice")
+        })
+    </script>
+</body>
+</html>

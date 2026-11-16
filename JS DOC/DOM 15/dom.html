@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">Raju</h1>
+    <p>Chintu</p>
+    <h2 class="cls">Mintu</h2>
+    <p class="cls">Bunty</p>
+    <p>Dinga</p>
+    <p class="cls">Bujii</p>
+
+    <script>
+        // get Element by ID
+        // used to return the entire Element with respect to ID
+        let a =document.getElementById('demo')
+        console.log(a)
+
+        // get Element by ClassName
+        // used to return all the elements with cls name in the form of HTML Collections
+        let b=document.getElementsByClassName('cls')
+        console.log(b)
+
+        // get Element by TagName 
+        // used to return all the elements with TagName in the form of HTML Collections
+        let c=document.getElementsByTagName('p')
+        console.log('p')
+
+        // get Element by QuerySelector
+        // used to return the single element based on the priority 
+        let d=document.querySelector('p')
+        console.log(d)
+
+        // get Element by QuerySelectorAll 
+        // used to return the element in the form of NodeList
+        let e=document.querySelectorAll('p')
+        console.log(e)
+    </script>
+</body>
+</html>

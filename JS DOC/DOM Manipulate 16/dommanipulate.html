@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <h1 id="demo">Raju</h1>
+        <p id="chintu">Chintu</p>
+        <h2 class="cls">Mintu</h2>
+        <p class="cls">Bunty</p>
+        <p id="dinga">Dinga</p>
+        <p class="cls">Bujii</p>
+    </div>
+
+    <script>
+        // DOM Manipulation in JS
+
+        // 1) creating an element
+        // 2) adding text / content
+        // 3) adding an element 
+        // 4) removing an element 
+        // 5) inserting an element 
+        // 6) replacing an element 
+
+        // 1) Creating an Element
+        let a =document.createElement('h2')
+        console.log(a)
+
+        let b =document.createElement('h1')
+        console.log(a)
+
+        // 2) Adding text / content  [innerText]
+        a.innerText='Jaddu'
+        console.log(a)
+        
+        b.innerText='Dhoni'
+        console.log(b)
+
+        // 3) Adding an Element [appendChild]
+        let par=document.getElementById('parent')
+        par.appendChild(a)
+        console.log(par)
+
+        par.appendChild(b)
+        console.log(par)
+
+        // 4) Removing an Element [remove()]
+        a.remove() //jaddu
+        console.log(par)
+
+        let dem=document.getElementById('demo')
+        dem.remove() //raju
+
+        // 5) Inserting an Element [ insertBefore() ]
+        
+        let chin=document.getElementById('chintu')
+        let ding=document.getElementById('dinga')
+        // parent.insertBefore(inserting element, element before )
+        parent.insertBefore(chin,ding)
+        console.log(par)
+        
+        // 6) Replacing an Element [ replaceChildren() ]
+        // replacing Element.replaceChildren( element need to replace )
+        chin.replaceChildren(ding)
+        console.log(par)
+        
+
+    </script>
+</body>
+</html>

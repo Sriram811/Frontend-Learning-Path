@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Local Storage</button>
+    <script>
+        // Local Storage (Permanent Storage)
+            // setItem
+            // getItem
+            // removeItem
+        let bt=document.getElementById("btn")
+        bt.addEventListener("click",()=>{
+            localStorage.setItem("Icecream","ButterScoch")
+            localStorage.getItem("Icecream")
+            localStorage.setItem("Choci","KitKat")
+            localStorage.getItem("Choci")
+        })
+    </script>
+</body>
+</html>
