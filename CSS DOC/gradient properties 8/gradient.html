@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Linear gradient */
+        #emp{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            background-image:linear-gradient(to top right, red,blue,green,aqua,purple,yellow);
+            margin-bottom: 60px;
+        }
+        /* Repeating Linear gradient  */
+         #emp1{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            margin-bottom: 60px;
+            margin-left: 50%;   
+            background-image:repeating-linear-gradient(red 20%,blue 30%,green 54%,aqua 38%,purple 36%,yellow 36%);
+        }
+        /* Radial Gradient  */
+        #rad{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            background-image:radial-gradient(red,blue,green,aqua,purple,yellow);
+        }
+        /* Repeating Radial Gradient  */
+        #rad1{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            margin-top: 50px;
+            margin-left: 50%;
+            background-image:repeating-radial-gradient(red 20%,blue 30%,green 54%,aqua 38%,purple 36%,yellow 36%);
+        }
+        /* Conic Gradient  */
+         #con{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            background-image:conic-gradient(red 40deg,blue 60deg,green 190deg ,aqua 80deg ,purple 20deg);
+        }
+        /* Repeating Conic Gradient */
+        #con1{
+            height: 500px;
+            width: 500px;
+            border: 5px;
+            margin-top: 50px;
+            margin-left: 50%;
+            background-image:repeating-conic-gradient(white 40deg 40deg ,black 60deg 65deg ,white 90deg 80deg ,black 80deg 70deg  ,white 120deg 100deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- Linear Gradient -->
+    <h1>Linear Gradient</h1>
+    <div id="emp"></div>
+
+    <!-- Repeating Linear Gradient -->
+    <h1 style="margin-left: 50%;">Repeating Linear Gradient</h1>
+    <div id="emp1"></div>
+
+    <!-- Radial Gradient  -->
+    <h1>Radial Gradient </h1>
+    <div id="rad"></div>
+
+
+    <!-- Repeating Radial Gradient  -->
+    <h1 style="margin-left: 50%;">Repeating Radial Gradient</h1>
+     <div id="rad1"></div>
+
+    <!-- Conic Gradiet -->
+     <h1>Conic Gradient </h1>
+     <div id="con"></div>
+
+     <!-- Repeating Conic Gradient  -->
+    <h1 style="margin-left: 50%;"> Repeating Conic Gradient </h1>
+     <div id="con1"></div>
+</body>
+</html>

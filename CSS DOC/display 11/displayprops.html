@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p,img,iframe,input{
+            display: block;
+            /* opacity: 0.6; */
+        }
+        #p{
+            position: absolute;
+            top: 140px;
+            z-index: 60;
+            left: 60px;
+            right: 50px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+        }
+
+        p,h1{
+            display: inline;
+        }
+        
+        #dem,#dem1,h2{
+            height: 100px;
+            width: 100px;
+            border: 5px solid green;
+            display: inline-block;
+            position: relative;
+            top: 60px;
+            z-index: 50;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <!-- BLOCK LEVEL -->
+    <!-- used to convert inline level into block element -->
+    <img src="apple.jpg" alt="">
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente totam obcaecati maiores. Qui numquam incidunt neque ducimus. Quibusdam sit a iste soluta ex numquam architecto dolore quae, temporibus asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique rem officiis laborum natus, eligendi asperiores, tenetur itaque autem perspiciatis aliquid quisquam voluptatem vitae magni iusto fugiat reiciendis sunt saepe eum quidem. Doloremque commodi rem magni iusto ullam? Similique, illo. Corrupti, obcaecati doloribus iste amet magnam ex accusamus dolorum provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore rem quo nesciunt reiciendis laudantium ducimus adipisci dolores error cupiditate, eos, ut delectus provident. Mollitia iste harum reprehenderit nemo perspiciatis quo ad? Architecto porro atque iusto reprehenderit deserunt totam expedita quidem voluptatibus sit, neque, minima, dolorem sunt harum nisi nihil excepturi dicta magnam ullam natus ea est explicabo quasi odit placeat. Atque quasi at non nihil qui, laboriosam maiores ducimus. Dolor itaque modi maiores reprehenderit consequuntur accusamus id suscipit repellendus fuga voluptates explicabo aliquam at unde placeat enim beatae, obcaecati dolorem! Perspiciatis quisquam repellat assumenda accusantium praesentium eligendi, voluptate sed eum sapiente at commodi recusandae autem. Assumenda, porro minima esse, veritatis nulla cum exercitationem alias, et nobis dolores laborum eos ipsa dolorem quibusdam? Animi, dolorem commodi. Dicta ducimus officia corrupti maxime voluptas aut sunt quisquam. A accusantium dolore unde vero provident, doloremque, aut ex est neque illum tempore! Commodi distinctio, sapiente corrupti fugiat debitis a minima? Ipsam placeat illum harum sed consequatur velit laborum quam veritatis cupiditate autem, ab optio maxime vitae dicta cum itaque nulla ut fugiat tenetur? Mollitia autem reiciendis odio ipsa aliquam facere minima vel, iure nesciunt obcaecati expedita inventore alias cumque quo iste doloribus fuga laborum veritatis enim ducimus? Iure voluptas quas aut obcaecati ipsum nesciunt? Repellat et, voluptas similique sit sed tempora reiciendis harum exercitationem odit aut odio possimus aliquid sapiente praesentium animi ipsa culpa blanditiis suscipit unde ex quos eius. Architecto rem obcaecati quidem error dolorum. Labore perferendis fugiat odit optio eum expedita hic unde accusamus ex nam perspiciatis delectus officia modi error, ipsam explicabo ipsa at eos fuga commodi quas amet vitae reiciendis aut! Incidunt sequi ut, esse, provident quibusdam facilis voluptas rem beatae iure eum, consequuntur fuga magni ipsa nisi unde assumenda totam aliquam debitis eius eaque. Et labore sit beatae rem ipsum.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2bH09YEDdxE?si=qlRBrqlfhOeCXc2z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <label for=""></label>
+        <input type="text">
+    
+    <!-- INLINE LEVEL -->
+    <!-- used to convert block level into inline element -->
+    <!-- cant provide height and width -->
+    <div></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quae doloremque temporibus officia impedit natus esse enim ut officiis.</p>
+    <h1>hello</h1>
+
+    <br><br>
+    <!-- INLINE-BLOCK LEVEL -->
+     <!-- can help to provide height and width for block level element  -->
+    <div id="dem"></div>
+    <div id="dem1"></div>
+    <h2>Inline-Bock</h2>
+
+</body>
+</html>
